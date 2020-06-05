@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana;
+}
+div#all{
+	width: 350px;
+	height: 565px;
+	margin: 30px auto;
+	background-color: #534E55;
+	border-radius: 15px;
+	padding: 20px;
+	text-align: center;
+}
+@font-face{
+	font-family: myfont;
+	src: url(fonts/digital-7.ttf);
+}
+input{
+	width: 96%;
+	height: 60px;
+	font-size: 50px;
+	border: none;
+	outline: none;
+	border-radius: 15px;
+	text-align: right;
+	background-color: #D0E2B0;
+	font-family: myfont;
+}
+div#buttons{
+	margin-top: 15px;
+	width: 100%;
+	height: 460px;
+	display: flex;
+	flex-wrap: wrap;
+}
+button#items{
+	width: 21%;
+	height: 11%;
+	background-color: #7E7E7E;
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	margin: 2%;
+	line-height: 52.5px;
+	border: none;
+	outline: none;
+}
+button#items:nth-child(1){
+	background-color: #EA5D63;
+	font-size: 45px;
+	font-weight: bold;
+	width: 46%;
+	line-height: 20px;;
+}
+button#items:nth-child(2){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(3){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 55px;;
+}
+button#items:nth-child(4){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(5){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(6){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(7){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(8){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(9){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(10){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bold;
+}
+button#items:nth-child(11){
+	background-color: #469EC6;
+	font-size: 25px;
+	font-weight: bolder;
+	line-height: 60px;;
+}
+button#items:nth-child(15){
+	background-color: #469EC6;
+	font-weight: bold;
+}
+button#items:nth-child(19){
+	background-color: #469EC6;
+	font-weight: bold;
+}
+button#items:nth-child(23){
+	background-color: #469EC6;
+	font-weight: bold;
+}
+button#items:nth-child(26){
+	background-color: #EA5D63;
+	width: 46%;
+	font-size: 55px;
+	font-weight: bold;
+}
+i.fa-backspace{
+	font-size: 25px;
+}
+i.fa-divide{
+	font-size: 35px;
+}
+button#items:hover{
+	background-color: black;
+}
